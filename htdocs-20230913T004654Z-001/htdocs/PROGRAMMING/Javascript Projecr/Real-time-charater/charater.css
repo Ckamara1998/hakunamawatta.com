@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+height: 100vh;
+}
+.contanel{
+   margin-top: 200px;
+background-color: rgba(80, 70, 100, 0.726);
+width: 30%;
+}
+.count-contanel{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.total-count{
+    margin-right: 30px;
+}

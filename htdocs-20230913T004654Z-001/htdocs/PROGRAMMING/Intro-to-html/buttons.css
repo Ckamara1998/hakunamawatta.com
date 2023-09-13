@@ -1,0 +1,58 @@
+
+    .subscribe-button {
+                background-color: rgb(233, 27, 27);
+                color: white;
+                border: none;
+                height: 50px;
+                width: 123px;
+                border-radius:  20px;
+                cursor: pointer;
+                margin-right: 9px;
+            }
+        .subscribe-button:hover { 
+        background-color: green; 
+        }
+        
+        .subscribe-button:active { 
+        background-color: rgb(63, 14, 240);
+        }
+        
+        .DOWNLOAD-button {
+            background-color: rgb(17, 16, 16);
+                color: rgb(255, 255, 255);
+                border: 40;
+                border-width: 1px;
+                border-radius:  18px;
+                cursor: pointer;
+                color: rgb(228, 228, 240);
+                height: 30px;
+                font-size: 15px;
+                height: 20px;
+                width: 100px;
+                padding-top: 4;
+        }
+        
+        .Get start-button {
+            background-color: rgb(17, 16, 16);
+                color: rgb(255, 255, 255);
+                border: 40;
+                border-width: 1px;
+                border-radius:  18px;
+                cursor: pointer;
+                color: rgb(228, 228, 240);
+                height: 30px;
+                font-size: 15px;
+                height: 20px;
+                width: 100px;
+        }
+        .write-title{
+                font-family: arie;
+        font-size: 30px;
+        font-weight:bold;
+        font-style:calibri;
+        text-align:center;
+        width:300px; 
+        line-height:10; 
+        padding-top: 4;
+        margin-bottom: 0;
+        }

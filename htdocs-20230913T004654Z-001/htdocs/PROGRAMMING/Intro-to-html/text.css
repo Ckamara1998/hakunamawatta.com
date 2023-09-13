@@ -1,0 +1,51 @@
+
+
+
+
+
+
+.cooper-title{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    width: 300;
+    line-height: 1;
+    margin-top: 0;
+    border-bottom: 0;
+ }
+ .views-title {
+     font-family: arial;
+     font-size: 18px;
+     margin-top: 0;
+     scroll-margin-bottom: 440;
+     line-height: 0;
+
+ }
+ .working-title {
+     font-family:arial;
+     font-size:19px;
+     color:blue;
+     line-height: 2;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: 0;
+ }
+ .shop-title {
+     margin-top:S 0;
+
+     font-family:arial;
+     font-size:19px;
+     padding-top: 22px;
+     padding-bottom: 22px;
+     background-color: rgb(243, 16, 16);
+     color: rgb(243, 243, 235);
+     cursor:pointer;
+     text-decoration: underline;
+    
+ }
+ .spen-example  {
+     font-family:arial;
+     font-size:20px;
+     color: blue;
+ }

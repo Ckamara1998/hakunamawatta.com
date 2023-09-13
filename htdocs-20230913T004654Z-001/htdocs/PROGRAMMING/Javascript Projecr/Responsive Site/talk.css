@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(200, 100, 250);
+   
+    margin-left: 400px;
+    
+}
+
+
+.contact form{
+ display: inline-block;
+}
+.contact form input{
+    display: flex;
+    width: 300px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact .buttons button{
+    padding: 5px 60px 5px 60px;
+    border-radius: 20px;
+}
+.contact .buttons button:hover{
+    background-color: rgb(250, 255, 150);
+}

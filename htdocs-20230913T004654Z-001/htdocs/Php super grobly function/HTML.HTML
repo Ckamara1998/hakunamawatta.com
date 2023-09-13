@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <?php
+if(isset($_POST['submit'])){
+    $name = thmlspecialcharts($_POST['name']);
+    $age = thmlspecialcharts($_POST['age']);
+    $email = thmlspecialcharts($_POST['email']);
+}
+    ?>
+    <form action="HTML.HTML" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" name="age" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" required>
+        </div>
+        <input type="submit" name="submit" placeholder="Submit" value="Submit">
+    </form>
+   
+</body>
+</html>
+

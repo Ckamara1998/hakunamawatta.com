@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(190, 99, 7);
+    flex-wrap: wrap;
+}

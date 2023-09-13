@@ -1,0 +1,107 @@
+<!DOCTYPE html>>
+<HTML lang="en">
+
+    <HEAD>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>index</title>
+        <link rel="stylesheet" href="index.css">
+    </HEAD>
+    <BODY>
+<div id="header">
+    <div class="container">
+        <nav>
+           <div class="logo"><span class="lo">K</span>AMARA</div>
+            <ul>
+                <li><a herf="#">Home</a></li>
+                <li><a herf="#">About</a></li>
+                <li><a herf="#">Service</a></li>
+                <li><a herf="#">Portfolio</a></li>
+                <li><a herf="#">Cantact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Deisgner</p>
+            <h1>Hi, I'm <span>Cooper</span><br> Kamara Fome Liberia</h1>
+        </div>
+    </div>
+</div>
+<div class="id=about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="cooper2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorem 
+                    repudiandae in minus iusto odit eius labore natus est cum quam, quaerat
+                     inventore rerum neque sit repellendus temporibus eos modi sequi necessitatibus 
+                     quia voluptas? Laudantium repellat delectus necessitatibus tenetur pariatur deserunt
+                      enim ipsa quisquam consequuntur suscipit beatae cum ducimus officia mollitia aperiam,
+                       ratione explicabo veritatis facere repudiandae. Odio ea eaque nam itaque magni labore 
+                       accusamus iure suscipit officiis libero. Veniam corrupti repellendus accusamus! Accusamus
+                        animi quia quae aliquam dolores illo odio. Delectus cupiditate velit incidunt illo, dolor
+                         sint nulla eaque aut eos quas? Ipsam eos ad, illo qui velit nemo temporibus itaque maxime
+                          assumenda sed nesciunt architecto magni, ex nam consectetur distinctio quis corrupti. Ad 
+                          enim magnam deleniti temporibus quibusdam aperiam quam harum porro perspiciatis! 
+                          Voluptates, eligendi tempora voluptatem ullam sequi fuga aliquid similique aperiam 
+                          dolorum temporibus quas fugit. Ipsam ad voluptas quos eius adipisci reiciendis nemo 
+                          natus iure quia aut consequatur autem odio a, officiis tempora sed officia recusandae. 
+                          Eveniet, delectus. Esse vitae illum laudantium saepe non fugiat nisi obcaecati voluptas 
+                          nobis atque aliquid sapiente molestiae commodi vel repellat tempora cupiditate dignissimos 
+                          a, molestias, praesentium nihil. Cumque officia ut provident exercitationem tempora doloremque. 
+                          Repudiandae quod molestias incidunt atque accusantium enim debitis. Quo animi quisquam laboriosam 
+                          quidem, explicabo iure dolorum numquam maiores beatae dolorem amet libero aspernatur cumque iusto,
+                           quae modi ipsum! Voluptatem, debitis dicta veniam expedita excepturi fugit tempora reiciendis totam
+                            commodi sit, doloribus aperiam dignissimos maiores! Eveniet quae dolore veritatis 
+                    dignissimos delectus quaerat repudiandae sint laudantium minus inventore?</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UL</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX DesignTraining at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLc</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at CoinDigital Ltd</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalorne</li>
+                            <li><span>2014</span><br>BBA From ISM Bangalore.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablinks of tablinks){
+            tablinks.classlist.remove("active-links");
+        }
+        for(tabcontent of tabcontent){
+            tabcontent.classlist.remove("active-tab");
+        }
+        veent.currentTargat.classlist.add("active-tab");
+        docution.gatElementById(tabname).classlist.add("active-tab")
+    }
+</script>
+    </BODY>
+</HTML>

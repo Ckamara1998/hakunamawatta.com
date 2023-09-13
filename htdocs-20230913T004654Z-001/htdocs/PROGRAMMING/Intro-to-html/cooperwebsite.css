@@ -1,0 +1,83 @@
+
+*
+
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(hd-wallpaper.jpg);
+    background-size: cover;
+  
+   font-family: sans-serif;
+}
+.home {
+background-color: rgb(5, 73, 22);
+text-align: center;
+}
+.home ul {
+    display: inline-flex;
+    list-style: none;
+    color: #ffff;
+}
+.home ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.home ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+.homework, .home ul li:hover {
+    background:#2bab0d;
+    border-radius: 3px;
+}
+.sub-menu-1 { 
+    display: none;
+}
+.home ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.home ul li:hover .sub-menu-1 ul {
+    display:block;
+    margin: 10px;
+}
+.home ul li:hover .sub-menu-1 ul li {
+    width: 110px;
+    padding: 4px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left; 
+}
+.home ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.home ul li:hover .sub-menu-1 ul li a:hover {
+    color:rgb(36, 9, 190);
+} 
+.cooperdiv {
+    font-family:arial;
+font-size: 20px;
+color: rgb(17, 243, 73);
+margin-left: 800px;
+margin-top: 20px;
+text-align: left;
+display: inline-block;
+}
+.web{
+    margin-top: 1px;
+line-height: 0px;
+
+}
+.cooper-text {
+    font-size: large;
+    font-size: 40px;
+    color: rgb(243, 21, 21);
+}

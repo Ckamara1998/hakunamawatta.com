@@ -1,0 +1,166 @@
+body
+{
+    
+line-height: 1.2;
+}
+content
+{
+   margin-left: 2px;
+   padding: 13px;
+}
+.content .local
+{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 255, 255, 0.336);
+    position: fixed;
+    
+}
+nav 
+{
+    padding: 20px;
+    margin: 20px;
+}
+ul 
+{
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    justify-items: center;
+    margin: 60px;
+    font-size: 20px;
+}
+nav ul li 
+{
+    margin-top: 10px;
+  padding: 10px;
+}
+nav ul li a .fa
+{
+   padding-right: 10px;
+}
+.logo
+{
+    font-size:60px;
+    font-family:  Times;
+}
+.logo .k
+{
+    font-size: 80px;
+    color: blueviolet;
+}
+.k2
+{
+    font-style: oblique;
+    color: rgb(235, 191, 16);
+}
+
+.btn
+{
+    background-color: #EC2;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-style: inherit;
+}
+.main-content
+{
+    margin-left: 300px;
+   
+   
+}
+.section-one
+{
+    display: flex;
+    background-color: brown;
+
+padding-right: 10px;
+} 
+.img 
+{
+    
+    margin-top: 100px;
+  
+}
+.img img
+{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    width: 90%; 
+}
+
+.section-one .first 
+{
+    margin-top: 100px;
+    margin-left: 80px;
+    padding: 50px;
+ font-size: 20px;
+}
+.about-one h2
+{
+  margin-top: 200px;
+margin-left: 70PX;
+font-size: 60PX;
+color: #EC2;
+font-style: oblique;
+}
+.about-two
+{
+padding-left: 40px;
+font-size: 20px;
+}
+.about-two h3
+{
+    font-weight: 30px;
+    color: blue;
+}
+.about-two p 
+{
+    letter-spacing: 1px;
+}
+.personal-info
+{
+display: flex;
+margin-top: 90px;
+}
+
+.row-1
+{
+    width: 50%;
+    padding: 10px;
+    background-color: blue;
+}
+.row-2
+{
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(27, 214, 136);
+}
+.about .item
+{
+    display: flex;
+}
+.about .item .info-1
+{
+    margin: 20px;
+}
+.about .item .skills-1
+{
+    margin-left: 250px;
+}
+ .progress-in
+{
+    color: rgba(15, 241, 15, 0.774);
+    height: 7px;
+    border-radius: 90px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.skill-percent
+{
+    right: 0;
+    color: #EC2;
+    top: 30px;
+}

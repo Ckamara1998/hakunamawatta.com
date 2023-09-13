@@ -1,0 +1,303 @@
+body
+    {
+        
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+header
+    {
+       background-color: aqua;
+       background-image: url(photos/hakunamawatta\ 1.png);
+       background-size: cover;
+       height: 600px;
+       width: 100%;
+    }
+nav
+    {
+        background-color: blue;
+        width: 100%;
+        position: fixed;
+        flex-wrap: wrap;
+    }
+ul
+    {
+        display: flex;
+        justify-content: right; 
+        flex-wrap: wrap; 
+    }
+li
+    {
+        list-style: none;
+        flex-wrap: wrap;
+    }
+li a
+    {
+        font-size: 20px;
+        color: azure;
+        text-decoration: none;
+        padding: 20px;
+    }
+ul li ul 
+    {
+        display: block;
+    }
+li a:hover 
+    {
+        background-color: green;
+        padding: 6px 20px 6px 20px;
+        border-radius: 20px;
+        display: block;
+       
+    }
+ul li ul li
+    {
+        display: none;
+        
+    }
+ul li:hover ul li
+    {
+        display: block;
+    }
+.phone-menue
+{
+    display: none;
+}
+.img-1
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 450px;
+        flex-wrap: wrap;
+    }
+img 
+    {
+        width: 150px;
+        height: 120px;
+        border-radius: 60px;
+    }
+.img-1 h3
+    {
+        margin-top: 70px;
+    }
+.img-1 h2
+    {
+        margin-top: 90px;
+        padding-left: 200px;
+    }
+.section-one
+    {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .section-one h2
+    {
+        text-align: center;
+        font-size: 50px;
+    }  
+.control-one
+    {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+.section-one img
+    {
+        width: 560px;
+        height: 400px;
+        
+    }
+.section-one pre
+    {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-wrap: wrap;
+    }
+footer
+    {
+        display: flex;
+        justify-content: center;
+        background-color: brown;
+        padding: 100px;
+        
+    }
+.social-one
+    {
+        font-size: 30px;
+        display: flex;
+    }
+.social
+    {
+        padding: 30px;
+    }
+footer
+    {
+        flex-wrap: wrap;
+    }
+form p input
+    {
+      width: 400px;
+      height: 30px;  
+     
+    }
+  button
+    {
+        margin-left: 110px;
+        padding: 10px 80px 10px 80px;
+       border-radius: 20px;
+       flex-wrap: wrap;
+       
+    }
+.submit button:hover
+    {
+        background-color: green;
+    }
+.img-2 img
+    {
+        width: 300px;
+        height: 150px;
+    }
+
+    /* MEDIA QUERIES */
+@media only screen and (max-width:840px) 
+{   
+    header
+            {
+                background-color: aqua;
+                background-image: url(photos/hakunamawatta\ 1.png);
+                background-size: cover;
+                height: 600px;
+                width: 100%;
+                margin-bottom: 300px;
+                overflow: auto;
+
+            }
+        nav
+            {
+                background-color: blue;
+                width: 100%;
+                position: fixed;
+                flex-wrap: wrap;
+            }
+        .computer-menue
+            {
+                display: none;
+            }
+        .phone-menue
+            {
+                display: block;
+                float: left;
+            }
+            .phone-menue ul li ul 
+            {
+                display: block;
+            }
+        .phone-menue ul li ul li a
+            {
+                display: none;
+            }
+        .phone-menue ul li:hover ul li  a
+            {
+                display: block;
+            }
+        .img-1
+            {
+                width: 100%;
+                background-color: aqua;
+                background-image: url(photos/hakunamawatta\ 1.png);
+               background-size: 20cm;
+                flex-wrap: wrap;
+            }
+        .img-1 img 
+            {
+              display: none;  
+            }
+        .img-1 h3
+            {  
+              display: none;
+            }
+        .img-1 h2
+            {
+                display: none;
+
+            }
+        .section-one
+            {
+                flex-wrap: wrap;
+                align-items: baseline;
+                display: block;
+            }
+            .section-one h2
+            {
+               
+                font-size: 30px;
+            }  
+        .control-one
+            {
+               display: block;
+                
+            }
+        .control-one img
+            {
+                width: 360px;
+                height: 250px;
+                padding: none;
+                margin: none;
+            }
+        .section-one pre
+            {
+                font-size: 12px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                flex-wrap: wrap;
+            }
+        footer
+            {
+                display: block;
+                background-color: brown;
+                width: 100%;
+              overflow-wrap: normal;
+                
+            }
+        .social-one
+            {
+                font-size: 10px;
+                display: block;
+            }
+        .social
+            {
+                display: block;
+                align-items: center;
+                margin: auto;
+            }
+        footer
+            {
+                display: block;
+            }
+        form p input
+            {
+            width: 50%;
+            height: 30px;  
+            
+            }
+        button
+            {
+                
+                padding: 10px 80px 10px 80px;
+                border-radius: 20px;
+                align-items: center;
+                margin: auto;
+                flex-wrap: wrap;
+            }
+        .submit button:hover
+            {
+                background-color: green;
+            }
+        .img-2 img
+            {
+                width: 300px;
+                height: 150px;
+            }
+}
+   

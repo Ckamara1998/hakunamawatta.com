@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamara Form</title>
+    <link rel="stylesheet" href="cooperform.css">
+</head>
+<body>
+    
+    <h1>Liberian  students at Kigali Independence University</h1>
+    <p>Please fill in the form</p>
+    <form action="https://formspree.io/f/mwkzrayo" method="POST">
+       <fieldset>
+        <label for="fullname">Enter your full name:</label><input id="fullname" class="line" name="fullname" type="text" required>
+        <label for="birth">Enter your Date of birth:</label><input id="birth" class="line" name="birth" type="text" required>
+        <label for="email">Enter your Email:</label><input id="email" class="line" name="email" type="email" required>
+        <label for="passport">Enter your Passport Nuber:</label><input id="passport" class="line" name="passport" type="passport" required>
+        <label for="password">Enter your password:</label><input id="password" class="line" name="password" type="password" required>
+       </fieldset>
+       <fieldset >
+  <label for="master">Category of Students:<br><br>  <input value="Master Student" class="master" type="radio" id="master" name="students" required>Master Students<br></label>
+  <label for="bsc">  <input value="BSC Student" class="master" type="radio" id="bsc" name="students" required>BSC Students</label>
+    
+  <label>Please close your Course:</label>
+  <select name="master" > 
+        <option value="">Master  Courses</option>
+        <option value="Business Administration">Business Administration</option>
+        <option value="Finance">Finance</option>
+        <option value="Accounting">Accounting</option>
+        <option value="Development Stiudies">Development Stiudies</option>
+        <option value="Development Stiudies">Development Stiudies</option>
+        <option value="Law in public Internation Law">Law in public Internation Law</option>
+        <option value="Science in Internet System">Science in Internet System</option>
+        <option value="Internation Economics and Business Law">Internation Economics and Business Law</option>
+    </select><br><br>
+    
+    <select name="bsc"> 
+        <option value="">B.S.C  Courses</option>
+        <option value="Economics">Economics</option>
+        <option value="Finance">Finance</option>
+        <option value="Management">Management</option>
+        <option value="Accounting">Accounting</option>
+        <option value="Rural Development"> Rural Development</option>
+        <option value="Development Stiudies">Development Stiudies</option>
+        <option value="Internation Relations">Internation Relations</option>
+        <option value="Populatio Studies">Populatio Studies</option>
+        <option value="Sociology">Sociology</option>
+        <option value="Administrative Science">Administrative Science</option>
+        <option value="Public Law">Public Law</option>
+        <option value="Private Low">Private Low</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Electrical Technology">Electrical Technology</option>
+        <option value="Electronics and Telecommunication">Electronics and Telecommunication</option>
+        <option value="Construction Technology">Construction Technology</option>
+        <option value="Engineering Survey(Topology)">Engineering Survey(Topology)</option>
+    </select>
+        
+            
+       </fieldset>
+       <fieldset>
+        <textarea rows="5" cols="50" placeholder="Text here" type="text" name="msg" required></textarea>
+        >
+        <input type="submit" name="By: Cooper Kamara" value="submit" class="submit">
+       </fieldset>
+    </form>
+
+    
+</body>
+</html>

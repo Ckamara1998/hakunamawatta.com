@@ -1,0 +1,74 @@
+.biography
+{
+    font-size: 15px;
+  background-color: rgb(102, 90, 100);
+  flex-wrap: wrap;
+
+    padding-left: 100px;
+    
+}
+.fa-solid, .fa-brands, .fa-regular{
+    width: 100%;
+    font-size: 60px;
+    color: blue;
+}
+.content3
+{
+    flex-wrap: wrap;
+    display: flex
+    
+}
+
+.biography p
+{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: #0f0f0f8a;
+}
+.biography h3
+{
+    color: white;
+}
+.biography .cooper
+{
+    width: 450px;
+    height: 650px;
+}
+.biography strong
+{
+    font-size: 26px;
+}
+.note
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page
+{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.page h2
+{
+    background-color: #00ff00;
+    padding: 3px 300px 3px 300px;
+    margin-bottom: 20px;
+}
+.page  h3
+{
+    margin-bottom: 20px;
+}
+.contact-me{
+    display: flex;
+   padding-top: 100px;
+   flex-wrap: wrap;
+  
+    margin-right: 700;
+    width: 100%;
+   background-color: rgb(100, 200, 100);
+}
+.contact, i, h2, h3{
+    margin-right: 700;
+    padding-left: 100px;
+}

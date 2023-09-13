@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(245, 197, 142);
+    margin: 0;
+    padding: 0;
+}
+.document{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 20px;
+}
+figure img{
+    width: 300px;
+    height: 200px;
+    
+}
+figure .dipoloma img{
+    height: 1px;
+}
+.fa-solid{
+    font-size: 50px;
+    background-color: rgb(250, 200, 240);
+    width: 100%;
+}

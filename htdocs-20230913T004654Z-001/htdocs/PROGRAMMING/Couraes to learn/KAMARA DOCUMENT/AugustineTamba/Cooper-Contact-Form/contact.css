@@ -1,0 +1,36 @@
+
+
+
+
+
+.container
+{
+    background-color: blueviolet;
+width: 40%;
+height: 40%;
+padding: 100px;
+margin-left: 300px;
+}
+.col-md-6
+{
+background-color: azure;
+padding: 100px;
+}
+.form-control
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.btn
+{
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    color: blue;
+}
+.btn:hover
+{
+    background: brown;
+}

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    background-image: url(photos/about.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.rolls-1{
+    display: grid;
+     background-color: blue;
+     flex-wrap: wrap;
+     position: fixed;
+     padding-left: 260px;
+    }
+    ul{
+        margin: o;
+        padding: 0;
+        list-style: none;
+      
+    }
+    ul li{
+        float: left;
+        width: 200px;
+        height: 40px;
+        opacity: .90;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    ul li a:hover{
+        background-color: green;
+    }
+    ul li ul li{
+        display: none;
+    }
+    ul li:hover ul li{
+        display: block;
+        
+    }
+ .contain-two pre{
+    font-size: 25px;
+    align-items: center;
+    margin-left: 210px;
+    line-height: 40px;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .form form{
+    margin-left: 200px;
+   padding-top: 100px;
+}
+.form form input{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+margin-bottom: 25px;
+width: 500px;
+height: 40px;
+border-radius: 10px;
+}
+.submit{
+   margin-left: 150px;
+    background-color: brown;
+    padding: 10px 90px 10px 90px;
+    border-radius: 20px;  
+}
+.submit a{
+    color: wheat;
+}
+.footer{
+   display: flex;
+    background-color: rgb(3, 3, 94);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img-2 img{
+    width: 300px;
+    height: 200px;
+    margin-left:0px ;
+}
+.social-one{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.social {
+   display: inline-block;
+   font-size: 50px;
+color: rgb(209, 69, 69);
+padding: 20px;
+}
+.social i{
+    color: white;
+}

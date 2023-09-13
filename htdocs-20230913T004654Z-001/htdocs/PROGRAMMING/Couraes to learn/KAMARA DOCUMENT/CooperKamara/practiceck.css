@@ -1,0 +1,23 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #e9e9f0;
+}
+
+.h2 
+{
+    color: #101111;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.sign
+{
+    width: 900px;
+    height: 20px;
+    color:  rgb(18, 20, 18);
+    padding: 10px;
+    margin-top: 30px;
+}

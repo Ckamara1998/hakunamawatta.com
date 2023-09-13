@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(photo/celebrating.png);
+    background-size: cover;
+}
+form{
+    margin-top: 200px;
+    background-color: aquamarine;
+    width: 30%;
+    box-shadow: 10px 10px 10px 10px rgba(221, 161, 165, 0.699);
+}
+form h2{
+    font-size: 15px;
+    margin-left: 300px;
+}
+form h1{
+    font-size: 20px;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px 30px 7px 30px;
+    border: solid 4px rgb(200, 40, 100);
+}
+form button{
+border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 7px 70px 7px 70px;
+}
+form button:hover{
+    transform: 10px;
+    background-color: rgb(200, 30, 40);
+}

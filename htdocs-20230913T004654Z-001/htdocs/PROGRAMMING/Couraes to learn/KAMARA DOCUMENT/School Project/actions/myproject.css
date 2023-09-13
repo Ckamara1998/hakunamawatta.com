@@ -1,0 +1,59 @@
+.one
+{
+    margin-left: 600px;
+}
+.one p
+{
+margin-right: 20px;
+margin-bottom: 60px;
+
+}
+/*Tihs is dashboard css*/
+.container-1
+{
+  color: beige;
+    margin: 40px;
+}
+.container-1 .btn
+{
+    color: antiquewhite;
+    background-color: black;
+    margin: 10PX;
+    font-size: 20PX;
+}
+.container-1 h1
+{
+    margin: 7px;
+    font-size: 50px;
+}
+.container-1 .row
+{
+    margin: 7px;
+    display: flex;
+}
+.container-1 .row-2
+{
+    padding: 20px;
+}
+.container-1 .col-9
+{
+    padding: 40PX;
+}
+.container-1 .col-8
+{
+    padding: 40PX;
+    font-size: 30px;
+}
+ .user
+{
+    margin-top: 60px;
+    margin-left: 600px;
+    padding: 20px;
+}
+.user .col-2
+{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+

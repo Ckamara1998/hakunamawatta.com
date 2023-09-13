@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamara Form</title>
+    <link rel="stylesheet" href="testone.html">
+</head>
+<body>
+    
+    <h1 id="title">Liberian  students at Kigali Independence University</h1>
+    <p id="description">Please fill in the form</p>
+    <form id="survey-form">
+      <div class="input-element">
+      <label id="name-label">
+        Name
+        </label>
+        <input placeholder="Name" type="text" id="name"  required>
+      
+      </div>
+        <div class="input-element">
+      <label id="email-label">
+        Email
+        </label>
+        <input placeholder="Email" type="email" id="email" required>
+      </div>
+
+        <div class="input-element">
+      <label id="number-label">
+        Age
+        </label>
+        <input placeholder="Number" type="number" id="number" min="5" max="100" required> 
+      </div>
+
+        <div class="input-element">
+      <label id="select-label">
+        Who's your favorite team?
+        </label>
+       <select id="dropdown">
+         <option>Bucks</option>
+         <option>Timberwolves</option>
+         <option>lakes</option>
+       </select>
+      </div>
+
+      <div class="color">
+        <label>What is your favorite color?</label>
+  <div class="green">
+    <label>Green<input type="radio" name="color" value="Green"></label>
+  </div>
+ <div class="red">
+   <label>Red<input type="radio" name="color" value="Red"></label>
+ </div>
+      </div>
+
+      <div class="cloor">
+        <label>select your favorite foods?</label>
+  <div class="apple">
+    <label>Apple<input type="checkbox" name="foods" value="Apple"></label>
+  </div>
+ <div class="orange">
+   <label>Orange<input type="checkbox" name="foodsr" value="Orange"></label>
+ </div>
+ <div class="cassava">
+   <label>Cassava<input type="checkbox" name="foods" value="Cassava"></label>
+ </div>
+ <div class="banna">
+   <label>Banna<input type="checkbox" name="foods" value="Banna"></label>
+ </div>
+      </div>
+      <div>
+        <label>Addition comments:</label>
+        <textarea type="text"></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+       </form>
+    
+</body>
+</html>
