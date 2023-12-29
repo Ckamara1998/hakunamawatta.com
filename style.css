@@ -258,12 +258,7 @@ div.service-content{
     border-radius: 20px;
 
 }
-.content-roll{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+
 .content-project{
     width: 400px;
     height: 200px;
@@ -271,6 +266,15 @@ div.service-content{
     flex-wrap: wrap;
     max-width: 100%;
 }
+
+.content-project h3{
+   
+   margin-left: 130px;
+}
+.content-project a{
+   
+   text-decoration: none;
+ }
 .content-project img{
     border-radius: 20px;
     object-fit: cover;
