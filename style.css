@@ -202,9 +202,8 @@ h3.text-control-two{
     max-width: 100%;
 }
 .img-control img{
-    width: 25z0px;
-    height: 400px;
-   
+    width: 250px;
+    height: 400px; 
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -452,22 +451,17 @@ color: white;
 @media only screen and (max-width: 1349px){
    
     .img-control{
-        border-left: solid 10px rgb(202, 214, 89);
-        border-right: solid 10px rgb(88, 230, 111);
-        border-top: solid 10px rgb(65, 165, 211);
-        border-bottom: solid 10px rgb(187, 67, 107);
-        width: 200px;
-        height: 200px;
-        margin-top: 90px;
-        border-radius: 10px;
+        border-left: solid 30px rgb(202, 214, 89);
+        border-right: solid 30px rgb(88, 230, 111);
+        border-top: solid 7px rgb(65, 165, 211);
+        border-bottom: solid 7px rgb(187, 67, 107);
         background: linear-gradient(70deg, rgb(100, 230, 139), rgb(255, 245, 245), rgb(203, 240, 118));
         flex-wrap: wrap;
         max-width: 100%;
     }
     .img-control img{
-        width: 200px;
-        height: 200px;
-        border-radius: 70%;
+        width: 250px;
+        height: 400px; 
         flex-wrap: wrap;
         max-width: 100%;
     }
@@ -533,22 +527,19 @@ color: white;
         flex-wrap: wrap;
     }
     .img-control{
-        border-left: solid 10px rgb(202, 214, 89);
-        border-right: solid 10px rgb(88, 230, 111);
-        border-top: solid 10px rgb(65, 165, 211);
-        border-bottom: solid 10px rgb(187, 67, 107);
-        width: 300px;
-        height: 300px;
-        margin-top: 90px;
-        border-radius: 10px;
+        border-left: solid 30px rgb(202, 214, 89);
+        border-right: solid 30px rgb(88, 230, 111);
+        border-top: solid 7px rgb(65, 165, 211);
+        border-bottom: solid 7px rgb(187, 67, 107);
         background: linear-gradient(70deg, rgb(100, 230, 139), rgb(255, 245, 245), rgb(203, 240, 118));
+        width: 200px;
+        height: 200px;
         flex-wrap: wrap;
         max-width: 100%;
     }
     .img-control img{
-        width: 470px;
-        height: 300px;
-        border-radius: 70%;
+        width: 200px;
+        height: 200px; 
         flex-wrap: wrap;
         max-width: 100%;
     }
