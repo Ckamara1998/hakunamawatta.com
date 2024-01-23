@@ -440,7 +440,7 @@ color: white;
         color: white;
         font-size: 30px;
         margin-left: 30px;
-
+        display: block;
          position: absolute;
         top: 0;
         right: 25px;
