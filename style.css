@@ -556,7 +556,7 @@ color: white;
 @media only screen and (max-width: 1212px){
     section.main-continer {
         display: block;
-        margin: 0 18%;
+        margin-top: -130px;
        align-content: center;
 
     }
