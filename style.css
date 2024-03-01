@@ -376,6 +376,11 @@ color: white;
 }
 @media only screen and (max-width: 765px){
 
+    img{
+        width: 2000px;
+        height: 25pc;
+        max-width: 400%;
+      }
      /*
     header{
         background: linear-gradient(0deg, rgb(100, 17, 230), rgb(118, 40, 20));
@@ -560,6 +565,8 @@ color: white;
        align-content: center;
 
     }
+   
+   
     .icon-control{
         display: none;
       }

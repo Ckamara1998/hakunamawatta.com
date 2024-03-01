@@ -54,8 +54,9 @@
   }
   .mySlides img{
     width: 1000px;
-    height: 500px;
-    max-width: 200%;
+    height: 25pc;
+    max-width: 100%;
+    left: none;
   }
   @keyframes fade {
     from {opacity: 11.4} 
@@ -66,7 +67,20 @@
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
-  .mySlides
-  {
-    width: 50%;
-  }
+ 
+  @media only screen and (max-width: 765px){
+
+    .mySlides  img{
+      width: none;
+        height: 20pc;
+        max-width: 500%;
+        border-radius: 20px;
+       position: relative;
+       left: -110px;
+       opacity: 100%;
+      }
+      .mySlides
+      {
+        width: 45%;
+      }
+    }
