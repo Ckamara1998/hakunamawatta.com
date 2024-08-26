@@ -121,8 +121,7 @@ div.continer{
        background-image: url(Photos/CooperImg.jpg);
        display: flex;
        justify-content: center;
-      height: 700px;
-      padding: 200px 300px  0px 0px;
+      padding: 200px 300px  200px 0px;
    }
 
 
