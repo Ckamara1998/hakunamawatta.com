@@ -121,10 +121,13 @@ div.continer{
        background-image: url(Photos/CooperImg.jpg);
        display: flex;
        justify-content: center;
+<<<<<<< HEAD
        flex-wrap: wrap;
        margin-left: 700px;
        width: 8;
        margin: auto;
+=======
+>>>>>>> d657dc79f79d2aeeba63a29fa67a6f0b0cacd5c5
       padding: 200px 300px  200px 0px;
    }
 
