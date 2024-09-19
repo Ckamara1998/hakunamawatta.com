@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    background: #ede8fe;
+    margin: 0;
+}
+
+/* heading  */
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+   justify-content: right;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-right: 50px;
+}
+ul li{
+    list-style: none;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+
+.closebtn{
+display: none;
+}
+
+.menu-two{
+    display: none;
+}
+
+@media only screen and (max-width: 760px){
+    .closebtn{
+        display: block;
+        }
+        
+        .menu-two{
+            display: block;
+        }
+        
+    
+    .menu-one{
+        display: block;
+        margin: auto;
+        background-color: black;
+        translate: -50px;
+         height: 50%;
+         width: 50%;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 68px;
+ 
+     }
+     .closebtn{
+         text-decoration: none;
+         color: white;
+         font-size: 30px;
+         margin-left: 30px;
+         display: block;
+         position: absolute;
+         top: 0;
+         display: block;
+         right: 25px;
+         font-size: 36px;
+         margin-left: 50px;
+     }
+     li{
+        list-style: none;
+        position: relative;
+        top: 50px;
+        left: 150px;
+     }
+    .menu-one li a{
+        text-decoration: none;
+        background: none;
+       display: block;
+       text-align: right;
+        color: white;
+        margin-right: 50px;
+
+         padding: 20px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .menu-one li a:hover{
+        transform: 5s;
+        background :none;
+        color: #487033;
+    }
+    
+}

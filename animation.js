@@ -1,8 +1,8 @@
 
 function openNav() {
-    document.getElementById("menu-one").style.width = "250px";
+    document.getElementById("menu-one").style.width = "300px";
   }
   
   function closeNav() {
-    document.getElementById("menu-one").style.width = "0";
+    document.getElementById("menu-one").style.width = "0px";
   }
