@@ -44,24 +44,73 @@ display: none;
     display: none;
 }
  
-.about-part{
+.content-control{
     display: flex;
     justify-content: center;
     width: 100%;
     background-image: url(Photos/CooperImg.jpg);
     background-size: cover;
     padding-top: 200px;
+    gap: 20px;
     padding-bottom: 200px;
+   
+}
+.icon-control {
+   margin-top: 30px;
   
 }
 .icon-control a{
-    font-size: 30px;
+    font-size: 40px;
     display: block;
+    margin-top: 10px;
 }
+.fa-facebook{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.text-control{
+    margin-right: 400px;
+}
+h2.text-control-two{
+    font-size: 45px;
+}
+h3.text-control-two{
+    font-size: 25px;
+    color: blue;
+}
+.control-text{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.download-button{
+    border: none;
+    padding: 0px 80px;
+    display: flex;
+    border-radius: 40px;
+}
+.download-button i{
+    font-size: 20px;
+    margin-right:  30px;
+    margin-top: 10px;
+    color: #487033;
+}
+.download-button h3 a{
+    text-decoration: none;
+}
+.download-button:hover{
+    background: linear-gradient(90deg, rgb(200, 150, 110), rgb(67, 100, 148), rgb(20, 69, 20));
+    transition: 5s;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 /* Media Quire page */
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 768px){
     .closebtn{
         display: block;
         }
@@ -123,14 +172,47 @@ display: none;
         color: #f8f8f8;
        
     }
-    .about-part{
+    .content-control{
         display: flex;
         justify-content: center;
         width: 100%;
         background-image: url(Photos/CooperImg.jpg);
         background-size: cover;
         padding-top: 20px;
-      
+        padding-bottom: 50px;
+    }
+    .icon-control a{
+        font-size: 25px;
+        display: block;
+        margin-top: 10px;
+    }
+    .text-control{
+        margin-right: 10px;
+    }
+    h2.text-control-two{
+        font-size: 20px;
+    }
+    h3.text-control-two{
+        font-size: 15px;
+    }
+    .control-text{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .download-button{
+        border: none;
+        padding: 0px 20px;
+        display: flex;
+        border-radius: 40px;
+    }
+    .download-button i{
+        font-size: 20px;
+        margin-right:  10px;
+        margin-top: 10px;
+        color: #487033;
+    }
+    .download-button h3 a{
+        text-decoration: none;
     }
     
 }
