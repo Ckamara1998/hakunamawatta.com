@@ -267,6 +267,7 @@ div.service-content{
     margin: auto;
     text-align: center;
     background: linear-gradient(80deg, rgb(39, 40, 50), rgb(88, 99, 100));
+    flex-wrap: wrap;
     padding: 20px;
   border-radius: 20px;
   color: white;
